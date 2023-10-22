@@ -448,9 +448,15 @@ span {
 .footer-logo-text {
   margin-right: 120px;
 }
+
 .footer-container {
-  display: flex;
-  align-items: baseline;
+
+
+/* display: flex;*/
+  /*align-items: baseline;
+  /*display: flex;
+  flex-direction: column;
+  gap: 72px;*/
 }
 .footer-studio {
   color: #f4f4fd;
@@ -510,6 +516,7 @@ span {
 .form-wrap {
   display: flex;
   gap: 24px;
+  flex-direction: column;
 }
 
 .form-field {
