@@ -228,9 +228,8 @@ span {
 .mob-soc-icon {
   fill: #F4F4FD;
 }
-/*
 .header-menu {
-  display: block;
+  display: none;
   gap: 40px;
 }
 .point-line::after {
@@ -266,7 +265,7 @@ span {
   font-style: normal;
 }
 .address-list {
-  display: block;
+  display: none;
   gap: 40px;
 }
 .address-list-item {
@@ -957,6 +956,11 @@ span {
 
     font-size: 36px; 
   }
+  .header-menu {
+    display: block;
+    }
+    .address-list {
+      display: block;}
 
   .main{
     background-image: linear-gradient(
@@ -1081,7 +1085,7 @@ padding: 0;
 }
 
 
-
+}
 /*=================== /Screen 768 ===================*/
 
 
