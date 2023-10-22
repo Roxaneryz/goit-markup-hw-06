@@ -435,7 +435,8 @@ span {
 }
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
+  margin: 16px auto;
 }
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
@@ -446,23 +447,30 @@ span {
   max-width: 264px;
 }
 .footer-logo-text {
-  margin-right: 120px;
+  /*margin-right: 120px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-container {
 
-
-/* display: flex;*/
-  /*align-items: baseline;
-  /*display: flex;
-  flex-direction: column;
-  gap: 72px;*/
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 72px;
+  justify-content: center;
 }
+
 .footer-studio {
   color: #f4f4fd;
 }
 .footer-soc {
-  margin-left: 0 auto;
+  /*margin-left: 0 auto;*/
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .footer-soc-title {
   font-weight: 500;
@@ -512,12 +520,17 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 .form-wrap {
   display: flex;
   gap: 24px;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 .form-field {
   width: 264px;
@@ -762,7 +775,7 @@ span {
    margin: 0;
   }
 
-}
+ 
 
 /*=================== /Screen 320 ===================*/
 
@@ -833,6 +846,22 @@ padding: 0;
 .potrfolio-list{
   row-gap: 72px;
   justify-content: center;
+}
+
+.footer-container{
+  max-width: 768px;
+}
+
+
+.footer-logo-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-soc {
+  justify-content: center;
+ display: flex;
+  flex-wrap: wrap;
 }
 
 /*=================== /Screen 768 ===================*/
