@@ -291,7 +291,6 @@ span {
 }
 .team-list-item {
   background: var(--WHITE, #fff);
-  margin: 0;
   margin-right: 24px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -749,6 +748,10 @@ span {
     display: none;
   }
   
+  .team-list-item{ 
+    
+   margin: 0;
+  }
 
 }
 
@@ -810,7 +813,7 @@ span {
 
 .team-list-item{ 
   justify-content: center;
- 
+ margin: 0;
 }
 
 
@@ -872,7 +875,22 @@ span {
     }
 
 
-  
+  .team{
+    padding: 120px 0;
+  }
+
+  .team-list{
+    flex-direction: none;
+    flex-wrap: wrap;
+    gap:24px;
+   
+  }
+
+  .team-list-item{
+  width: calc((100% - 24) / 4);
+
+  }
+
 
 }
 
