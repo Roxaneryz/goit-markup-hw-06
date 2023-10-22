@@ -880,14 +880,14 @@ span {
   }
 
   .team-list{
-    flex-direction: none;
-    flex-wrap: wrap;
+    
+    flex-wrap: nowrap;
     gap:24px;
    
   }
 
   .team-list-item{
-  width: calc((100% - 24) / 4);
+  max-width: 100%;
 
   }
 
