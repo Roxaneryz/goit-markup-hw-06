@@ -344,6 +344,7 @@ span {
 
 /*========== PORTFOLIO =======*/
 .portfolio {
+  max-width: 100%;
   padding: 120px 0;
 }
 .portfolio-title {
@@ -361,13 +362,14 @@ span {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.potrgolio-list {
+.potrfolio-list {
   display: flex;
   gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
 }
 .portfolio-list-item {
+  max-width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -808,7 +810,7 @@ span {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 64px 24px;
- 
+  justify-content: center;
 }
 
 .team-list-item{ 
@@ -816,8 +818,15 @@ span {
  margin: 0;
 }
 
+.port-container{
 
-
+max-width: 768px;
+padding: 0;
+}
+.potrfolio-list{
+  row-gap: 72px;
+  justify-content: center;
+}
 
 /*=================== /Screen 768 ===================*/
 
@@ -883,6 +892,7 @@ span {
     
     flex-wrap: nowrap;
     gap:24px;
+    justify-content: center;
    
   }
 
@@ -891,7 +901,15 @@ span {
 
   }
 
+  .port-container{
 
+    max-width: 1128px;
+    padding: 0;
+    }
+
+
+    .potrfolio-list{
+      row-gap: 48px;}
 }
 
 
