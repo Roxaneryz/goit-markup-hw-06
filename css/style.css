@@ -951,11 +951,15 @@ span {
 /*=================== Screen 768 ===================*/
 @media screen and (min-width: 768px) {
  
+  .main-container {
+    max-width: 768px;}
+
 
   .main-title{
 
-    font-size: 36px; 
+    font-size: 56px; 
     max-width: 498px;
+    text-transform: none;
   }
   .header-menu {
     display: block;
@@ -1116,6 +1120,8 @@ padding: 0;
   
   }
 }
+.main-container {
+    max-width: 1158px;}
 
   .container-plan{
     max-width: 1158px;
