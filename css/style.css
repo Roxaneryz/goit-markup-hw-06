@@ -975,15 +975,15 @@ padding: 0;
 }
 
 .footer-soc {
-  margin-left: 0 auto;
+  margin-right: 80px;
   
 
 }
 .footer-container{
-  max-width: 1128px;
+  max-width: 1158px;
   display: flex;
   align-items: baseline;
-
+gap: 0px;
 }
 }
 
