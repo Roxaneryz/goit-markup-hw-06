@@ -78,9 +78,17 @@ span {
 .hover-focus:focus {
   color: #404bbf;
 }
-
+.mob-menu-btn{
+  border-style: none;
+    background: transparent;
+    padding: 0px 0px;
+   
+}
+.mob-btn-icon{
+ 
+}
 .header-menu {
-  display: flex;
+  display: none;
   gap: 40px;
 }
 .point-line::after {
@@ -116,7 +124,7 @@ span {
   font-style: normal;
 }
 .address-list {
-  display: flex;
+  display: none;
   gap: 40px;
 }
 .address-list-item {
@@ -155,13 +163,15 @@ span {
 .main-title {
   color: var(--WHITE, #fff);
   text-align: center;
-  font-size: 56px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
+  /*max-width: 496px;*/
+  max-width: 160px;
   margin: 0 auto;
   margin-bottom: 48px;
+  text-transform: capitalize;
 }
 .main-btn {
   color: var(--WHITE, #fff);
@@ -784,6 +794,12 @@ span {
 /*=================== Screen 768 ===================*/
 @media screen and (min-width: 768px) {
  
+
+  .main-title{
+
+    font-size: 36px; 
+  }
+
   .bns-plan {    
     height: 100%;
     padding-top: 96px;
