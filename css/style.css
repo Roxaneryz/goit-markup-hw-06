@@ -821,7 +821,7 @@ span {
       display: none;
     }
   
-}
+
 
 .container-team{
   max-width: 768px;
@@ -850,20 +850,35 @@ padding: 0;
 
 .footer-container{
   max-width: 768px;
+  display: flex;
+    gap: 72px 24px;
+    flex-wrap: wrap;
+  
 }
 
 
 .footer-logo-text {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
   justify-content: center;
 }
 .footer-soc {
   justify-content: center;
- display: flex;
+  display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+
+
+
+
 }
 
+.form-text{
+  justify-content: left;
+}
+
+
+}
 /*=================== /Screen 768 ===================*/
 
 
@@ -946,8 +961,30 @@ padding: 0;
 
     .potrfolio-list{
       row-gap: 48px;}
+
+
+      .footer-logo {
+       display: inline-block;
+        margin-bottom: 16px;
+       
+
+}
+.footer-logo-text {
+  margin-right: 120px; 
+ 
 }
 
+.footer-soc {
+  margin-left: 0 auto;
+  
 
+}
+.footer-container{
+  max-width: 1128px;
+  display: flex;
+  align-items: baseline;
+
+}
+}
 
 /*=================== /Screen 158 ===================*/
