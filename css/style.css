@@ -324,7 +324,7 @@ span {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /*max-width: 496px;*/
+ 
   max-width: 160px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -955,6 +955,7 @@ span {
   .main-title{
 
     font-size: 36px; 
+    max-width: 498px;
   }
   .header-menu {
     display: block;
@@ -981,6 +982,10 @@ span {
   url(../images/font-img-tab-x2.jpg);
   
   }
+  }
+
+  .mob-menu-btn{ 
+    display: none;
   }
 
 
