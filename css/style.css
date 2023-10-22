@@ -64,7 +64,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+  
 }
 .nav {
   display: flex;
@@ -81,7 +81,8 @@ span {
 .mob-menu-btn{
   border-style: none;
     background: transparent;
-    padding: 0px 0px;
+    padding: 16px 0px 16px;
+    margin-left: 150px;
    
 }
 .mob-btn-icon{
@@ -120,7 +121,7 @@ span {
 }
 
 .address {
-  margin-left: auto;
+ 
   font-style: normal;
 }
 .address-list {
@@ -153,12 +154,28 @@ span {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/background-img.jpg);
+    url(../images/font-img-mob-x1.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+  /*height: 432px;*/
+}
+  @media (min-device-pixer-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .main{
+ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/font-img-mob-x2.jpg);
+  
+  }
+  }
+.main-container{
+
 }
 .main-title {
   color: var(--WHITE, #fff);
@@ -800,6 +817,28 @@ span {
     font-size: 36px; 
   }
 
+  .main{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/font-img-tab-x1.jpg);
+  }
+
+  @media (min-device-pixer-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .main{
+ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/font-img-tab-x2.jpg);
+  
+  }
+  }
+
+
   .bns-plan {    
     height: 100%;
     padding-top: 96px;
@@ -901,6 +940,26 @@ padding: 0;
 /*=================== Screen 1158 ===================*/
 @media screen and (min-width: 1158px) {
  
+
+  .main{: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/background-img.jpg);
+  }
+  @media (min-device-pixer-ratio: 2),
+  (min-resolution: 196dpi),
+  (min-resolution: 2dppx) {
+  .main{
+ background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../images/font-img-desk-x2.jpg);
+  
+  }
+  }
+
   .container-plan{
     max-width: 1128px;
   }
