@@ -280,6 +280,7 @@ span {
 
 /*========== MAIN =======*/
 .main {
+  max-width: 320px;
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 72px 0;
   background-image: linear-gradient(
@@ -287,7 +288,7 @@ span {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/font-img-mob-x1.jpg);
-  max-width: 1440px;
+ 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -367,6 +368,11 @@ span {
 }
 */ .bns-paln-list:first-child {
   flex-basis: calc((100% - 72px) / 4);
+}
+
+.img-team{
+  max-width: 100%;
+  height: auto;
 }
 
 .bns-paln-list:last-child {
@@ -736,8 +742,8 @@ span {
   visibility: visible;
 }
 .modal {
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   border-radius: 4px;
   background-color: #fcfcfc;
   position: absolute;
@@ -876,6 +882,9 @@ span {
   justify-content: center;
   fill: transparent;
 }
+.checkbox-icon{
+
+}
 .checkbox-form:checked + .checkbox-label > .checkbox-text {
   background-color: #404bbf;
   border: none;
@@ -961,7 +970,7 @@ span {
 
   .main {
     padding: 112px 0;
-
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1069,6 +1078,7 @@ span {
 /*=================== Screen 1158 ===================*/
 @media screen and (min-width: 1158px) {
   .main {
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1119,7 +1129,7 @@ span {
   .address-list {
     display: flex;
   gap: 40px;
-  flex-direction: ;
+  flex-direction: row;
   }
 
   .address-link {
