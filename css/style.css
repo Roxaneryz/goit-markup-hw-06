@@ -994,11 +994,6 @@ span {
     display: none;
   }
 
-  .bns-plan {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-
   .plan-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -1145,7 +1140,7 @@ span {
 
   .bns-plan {
     padding: 120px 0;
-    gap: 24pxж;
+    gap: 24px;
   }
 
   .plan-list {
